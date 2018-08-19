@@ -22,13 +22,25 @@ Three test video samples are used to verify the lane detection pipeline.
 
 For the first case, the `solidYellowLeft.mp4` video contains the white lines only, it is considered as base case because to the white line features are easily identifiable on a dark color road pavement
 
+Click the image to play the `white lines` lane detection video in Youtube
+
+[![White Lines](https://img.youtube.com/vi/_2suPC_yPV4/mqdefault.jpg)](https://youtu.be/_2suPC_yPV4 "Play white lines detection video")
+
 2. [**Intermediate**] : **Road with white and yellow lines**
 
 For the second case, the `solidWhiteRight.mp4` video contains both white and yellow lines are slightly more difficult for the pipeline to extract the lane line features (on a smooth dark road pavement)
 
+Click the image to play the `white and yellow lines tracking` lane detection video in Youtube
+
+[![White and Yellow Lines](https://img.youtube.com/vi/39oq_Rc2JzE/mqdefault.jpg)](https://youtu.be/39oq_Rc2JzE "Play the white and yellow Lines detection video")
+
 3. [**Advanced**]     : **Light color pavement and mixed shades on the road**
 
 Lastly, the third video `challenge.mp4` contains the most challenging case is the extras of the mixed of the shares on the road, the light color road pavement (that makes tracks yellow line filtering difficult), curve lines and shades on the road.
+
+Click the image to play the `challenge` lane detection video in Youtube
+
+[![Challenge](https://img.youtube.com/vi/pocZRDUtRZg/mqdefault.jpg)](https://youtu.be/pocZRDUtRZg "Play the challenge lane detection video")
 
 The test video outputs are stored in `test_videos_output` folder
 
